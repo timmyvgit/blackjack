@@ -3,18 +3,32 @@ body {
 	padding: 0px;
 	scroll-behavior: smooth;
 	color: white;
+	height: 100vh;
 	background-color: darkslategrey;
-	background-image: url("47.jpg");
+	background-image: url("background.jpg");
+	/* object-fit: contain; */
 	background-size: cover;
-	/* background-position: center; */
+
 }
-body
+#navbar {
+	font-family: 'roboto', sans-serif;
+}
 h1 {
 	text-align: center;
 	font-size: 30px;
 	color: white;
 }
-footer {
-	background-color: black;
-	color: white;
+.spades, .clubs {
+	color: black;
+}
+.hearts, .diamonds {
+	color: red;
+}
+.startbtn {
+	height: 0px;
+	width: 0px;
+	border-width: 0.5rem 0.5rem 0.5rem;
+	border-color: green;
+	border-left: 60px solid transparent;
+	border-bottom: 80px;
 }
